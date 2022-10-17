@@ -17,7 +17,7 @@ body{
 .card{
     background-color: #191919;
     width: 370px;
-    border: 2px solid #792929;
+    border: 2px solid #902323;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -26,7 +26,7 @@ body{
     padding-top: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Alinha horizontalmente por causa dos flexdirection */
+    align-items: center;
     gap: 10px;
 }
 
@@ -34,20 +34,17 @@ body{
     width: 96px;
     height: 96px;
     border-radius: 100%;
-    border: 3px solid #912b2b;
+    border: 3px solid #902323;
 }
-
 .card .minhas-informacoes .nome {
     font-size: 26px;
 }
-
 .card .minhas-informacoes .cargo {
     font-size: 20px;
     color: #b8bbc5;
     display: flex;
     padding: 10px;
 }
-
 .card .conteudo {
     background-color: #191919;
     margin-top: 15px;
@@ -56,7 +53,6 @@ body{
 .card .abas {
     display: flex;
 }
-
 .card .abas .aba{
     width: 50%;
     display: flex;
@@ -68,42 +64,34 @@ body{
 .card .abas img{
     width: 30px;
 }
-
 .card .abas .aba.selecionada{
     background-color: #262626;
 }
-
 .card .informacoes-abas{
     background-color: #262626;
 }
-
 .card .abas .aba:hover{
     background-color: #414141;
 }
-
 .informacoes-abas .informacao{
     min-height: 260px;
     padding: 15px;
     display: none;
 }
-
 .informacoes-abas .informacao.selecionada{
     display: block;
 }
-
 .informacoes-abas .sub-titulo{
     font-size: 22px;
     margin-bottom: 25px;
     text-align: center;
 }
-
 .informacoes-abas .descricao{
     font-size: 20px;
     max-height: 180px;
     overflow-y: auto;
     padding-right: 15px;
 }
-
 .informacoes-abas .descricao span{
     color: #b72828;
 }
@@ -116,7 +104,6 @@ body{
     max-height: 180px;
     overflow: auto;
 }
-
 .redes-sociais li a {
     background-color: red;
     width: 250px;
@@ -127,10 +114,10 @@ body{
     font-size: 20px;
     transition: opacity 0.3s ease-in-out;
 }
-
 .redes-sociais li a:hover{
     opacity: 0.8;
 }
+
 
 .redes-sociais .curriculo{
     background-color: #b72828;
