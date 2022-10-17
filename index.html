@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!--Alt+L+O = abrir o live server do arquivo-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+        <!--CSS DA FONTE: font-family: 'VT323', monospace;-->
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/style.css">
+        <link rel="stylesheet" href="./src/css/rolagem.css">
+        <title>Mini Portifólio - Nícolas Pires</title>
+    </head>
+    <body>
+
+        <main class="card"><!--a tag main seria o objeto principal do projeto-->
+            <div class="minhas-informacoes"><!--informações superiores do card-->
+                <img src="./src/imagens/foto-perfil.jpg" alt="foto de perfil" style="width: 96px;">
+                <h1 class="nome">Nícolas Pires Ferreira</h1>
+                <h2 class="cargo">Estudante de Análse e Desenvolvimento de Sistemas</h2>
+            </div>
+
+            <div class="conteudo"><!--conteúdo de baixo do card-->
+                <ul class="abas"><!--as duas opções de abas do card-->
+                    <li class="aba selecionada" id="sobre-mim"><img src="./src/imagens/sobre.gif" alt="icone aba sobre"></li>
+                    <li class="aba" id="minhas-redes"><img src="./src/imagens/coracao.gif" alt="icone aba redes sociais"></li>
+                </ul>
+
+                <div class="informacoes-abas"><!--informações das abas do card-->
+                    <div class="informacao selecionada" id="informacao-sobre-mim">
+                        <h3 class="sub-titulo"">Sobre</h3>
+
+                        <div class="descricao">
+                            <p>Olá! Meu nome é Nícolas, seja bem-vido(a) ao meu portifólio,</p>
+
+                            <p>
+                                Sou um estudante de progração que a cada dia se apaixona mais por esse mundo
+                            da tecnologia! Estou atualmente estudando <span>Java, C & Php</span> na faculdade.
+                            Sou um estudante de progração que a cada dia se apaixona mais por esse mundo
+                            da tecnologia! Estou atualmente estudando <span>Java, C & Php</span> na faculdade.
+                            Sou um estudante de progração que a cada dia se apaixona mais por esse mundo
+                            da tecnologia! Estou atualmente estudando <span>Java, C & Php</span> na faculdade.
+                            Sou um estudante de progração que a cada dia se apaixona mais por esse mundo
+                            da tecnologia! Estou atualmente estudando <span>Java, C & Php</span> na faculdade.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="informacao" id="informacao-minhas-redes">
+                        <h3 class="sub-titulo"">Minhas redes sociais</h3>
+                        
+                        <ul class="redes-sociais">
+                            <li>
+                                <a href="https://drive.google.com/drive/folders/1ZC5f22Ccx_D0emM_bPi4ctzEz5Y02Cr3?usp=sharing" target="_blank" class="curriculo">Curriculo</a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.linkedin.com/in/nicolas-pires-ferreira/" target="_blank" class="linkedin">LinkedIn</a>
+                            </li>
+
+                            <li>
+                                <a href="https://github.com/itssnico" target="_blank" class="github">GitHub</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+            
+        <script src="./src/js/index.js"></script> <!--Linkando o arquivo JavaScript-->
+    </body>
+</html>
